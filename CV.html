@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing: border-box;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body{
+  background: mediumaquamarine;
+  display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+
+        }
+        .container{
+            position: relative;
+            margin: 50px;
+            width: 100%;
+            max-width: 800px;
+            min-height: 800px;
+            background: #fff;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            box-shadow: 0 35px 55px ;
+        }
+        .container .left_side{
+            position: relative;
+            background: #003147;
+            padding: 40px;
+        }
+        .profile text{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgb(90, 43, 43);
+        }
+        .profile text{
+position: relative;
+display: flex;
+flex-direction:column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgb(48, 44, 44);
+        }
+        .profile_text .imgbox{
+           position: relative;
+           width: 200px;
+           height: 200px;
+           border-radius: 50%;
+           overflow: hidden;
+
+        }
+        .profile_text .imgbox img{
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+       .h2{
+        color: white;
+        font-size: 1.5px;
+        margin-top: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 500;
+        line-height: 1.5px;
+       }
+       .contactInfo.li{
+       margin-bottom: 15px;
+       color: white;
+       }
+       
+       .contactInfo.education h3{
+        color: coral;
+       }
+        .contactInfo.education li{
+      margin-bottom: 15px; ;
+        }
+       .contactInfo.education h5{
+        color: brown;
+     font-weight:500px ;
+       }
+       .contactInfo.education h4{
+        color: white;
+        font-weight: 300;
+       }
+       .contactInfo_Language h6{
+color: coral;
+font-size: 300;
+       }
+.contactInfo_Language li{
+    color: white;
+       }
+        .container .right_side{
+            position: relative;
+            background:#fff;
+            padding: 60px;
+        }
+        .about li{
+margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left_side">
+        <div class="profile_text">
+        <div class="imgbox">
+            <img src="blank dp.JPG">
+        </div>
+        
+        <h2>VIDYA KUMARI<br><span>WEB DEVELOPER</span></h2>
+        </div>
+<div class="contactInfo">
+    <h2 class="title">Contact Info</h2>
+    <ul>
+        <li>
+        <span class="icon"></span>
+        <span class="text">9546306758</span>
+        </li>
+        <li>
+            <span class="icon"></span>
+            <span class="text">vk9391394@gmail.com</span>
+            </li>
+            <li>
+                <span class="icon"></span>
+                <span class="text">Piska Nagri Ranchi(Jharkhand)</span>
+                </li>
+       
+    </ul>
+    <div class="contactInfo education">
+        <h3>Education</h3>
+        <ul>
+            <li>
+                <h5>2019</h5>
+                <h4>pass matric</h4>
+                <h4>Indian Public School</h4>
+                <h4>percent=84.20</h4>
+            </li>
+            <li>
+                <h5>2019-2021</h5>
+                <h4>Intermediate in Science</h4>
+                <h4>Ursuline Intermediate College Ranchi</h4>
+                <h4>percent=67.6</h4>
+            </li>
+            <li>
+                <h5>2021-2024</h5>
+                <h4>Bachelor of Science in Information Technology</h4>
+                <h4>Ranchi Women's College Ranchi</h4>
+                <h4>percent=80.20</h4>
+            </li>
+        </ul>
+        <div class="contactInfo_Language">
+            <h6>Language</h6>
+            <ul>
+                <li>
+                  English<br></li>
+                 <li> Hindi
+            </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</div>
+<div class="right_side">
+    <div class="about">
+        <h2 class="title2">Profile</h2>
+        <p>I'm a hardworking ,self motivated,reliable,punctual and responsible person.
+            I'm a mature team worker and adaptable to all challenging situation. I'm able to work well 
+            both in a team environment as well as using own initiative.My strength are I'm a quick learner.
+            My goal is to get job in your company. So I can prove myself with my skill.
+        </p>
+    </div>
+    <div class="about">
+        <h2 class="title2">Skills</h2>
+        <ul type="square"> 
+            <li>
+         <span class="text">Programming Language:</span><br>
+                Python<br>
+                Java<br>
+                C<br>
+                C++
+            </li>
+        </ul>
+        <ul type="square"> 
+            <li>
+         <span class="text">Fronted:</span><br>
+               HTML <br>
+            CSS<br>
+                Bootstsrap<br>
+                Javascript
+            </li>
+       </ul>
+    </div>
+    <div class="about">
+        <h2 class="title2">Intership Project</h2>
+        <ul type="disc">
+        <li>Web tech</li>
+        <li>Python</li>
+        </ul>
+
+    </div>
+    </div>
+</body>
+</html>
